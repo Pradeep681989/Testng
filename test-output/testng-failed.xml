@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Automation]" parallel="tests">
+  <test name="com.URL.Tests.Test1(failed)" parallel="tests">
+    <classes>
+      <class name="com.URL.Tests.Test1">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.URL.Tests.Test1 -->
+    </classes>
+  </test> <!-- com.URL.Tests.Test1(failed) -->
+  <test name="com.URL.Tests.Test2(failed)" parallel="tests">
+    <classes>
+      <class name="com.URL.Tests.Test2">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.URL.Tests.Test2 -->
+    </classes>
+  </test> <!-- com.URL.Tests.Test2(failed) -->
+  <test name="com.URL.Tests.Test3(failed)" parallel="tests">
+    <classes>
+      <class name="com.URL.Tests.Test3">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.URL.Tests.Test3 -->
+    </classes>
+  </test> <!-- com.URL.Tests.Test3(failed) -->
+  <test name="com.URL.Tests.Test4(failed)" parallel="tests">
+    <classes>
+      <class name="com.URL.Tests.Test4">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.URL.Tests.Test4 -->
+    </classes>
+  </test> <!-- com.URL.Tests.Test4(failed) -->
+</suite> <!-- Failed suite [Automation] -->
